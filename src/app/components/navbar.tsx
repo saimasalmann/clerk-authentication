@@ -1,15 +1,10 @@
 
 
-import { ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 import Link from "next/link";
 import React from "react";
 
-interface HeaderProps {
-  font: {
-    className: string;
-  };
-}
 function Header() {
   return (
     <header className=" bg-[#CFA6A61C] ">
